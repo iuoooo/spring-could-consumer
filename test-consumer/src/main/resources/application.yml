@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: spring-could-consumer
+
+server:
+  port: 9000
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost/eureka/
+
+ribbon:
+  ReadTimeout: 1000
+  ConnectTimeout: 1000
